@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import star from "../../Assets/star_icon.png"
 import stardull from "../../Assets/star_dull_icon.png"
 import instagram from "../../Assets/instagram_icon.png"
@@ -8,12 +8,14 @@ import scissor from "../../Assets/scissor.png"
 import Return from "../../Assets/return.png"
 import Tshirt from "../../Assets/t-shirt.png"
 import Money from "../../Assets/money.png"
+import { HomeContext } from "../Context/HomeContext";
 
 
 const ProductDisplay = (props) => {
-    const { product } = props;
     const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 });
     const [isLensVisible, setLensVisible] = useState(false);
+    const { product } = props;
+    const { addToCart } = useContext(HomeContext);
 
     function imageZoom(imgId, lensId, event) {
         let img = document.getElementById(imgId);
@@ -157,7 +159,7 @@ const ProductDisplay = (props) => {
                     </div>
 
                     <div className="cart mt-7 mb-2">
-                        <button className="btn py-3 bg-orange-600 rounded-0 text-white w-96 hover:bg-orange-700">ADD TO CART</button>
+                        <button onClick={() => { addToCart(product.id) }} className="btn py-3 bg-orange-600 rounded-0 text-white w-96 hover:bg-orange-700">ADD TO CART</button>
                     </div>
 
                     <div className="social-icons gap-2 mt-4 flex mt-3">

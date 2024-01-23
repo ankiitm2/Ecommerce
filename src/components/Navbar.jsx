@@ -14,10 +14,12 @@ const Navbar = () => {
     return (
         <div className="Navbar flex justify-around p-4 shadow bg-black sm:flex-wrap">
             <Link to={"/"}>
-                <div className="logo flex items-center gap-3">
-                    <img src={Logo} alt="logo" className="w-10" />
-                    <h1 className="text-2xl font-bold text-white">READYIFY</h1>
-                    <button onClick={toggleMenu} className="sm:hidden text-white">&#9776;</button>
+                <div className="logo flex items-center justify-between">
+                    <div className="logo-btn flex items-center gap-3">
+                        <img src={Logo} alt="logo" className="w-10" />
+                        <h1 className="text-2xl font-bold text-white">READYIFY</h1>
+                    </div>
+                    <button onClick={toggleMenu} className="toggle sm:hidden text-white">&#9776;</button>
                 </div>
             </Link>
             {showMenu && (
