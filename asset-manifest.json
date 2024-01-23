@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Ecommerce/static/css/main.6111b58f.css",
-    "main.js": "/Ecommerce/static/js/main.ebed7795.js",
+    "main.css": "/Ecommerce/static/css/main.72483217.css",
+    "main.js": "/Ecommerce/static/js/main.2119c28a.js",
     "static/media/hero-banner.png": "/Ecommerce/static/media/hero-banner.908a70d7a1dc5d31bc9f.png",
     "static/media/offer2.png": "/Ecommerce/static/media/offer2.18f41c91a20f50518f5f.png",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/Ecommerce/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
@@ -56,13 +56,14 @@
     "static/media/scissor.png": "/Ecommerce/static/media/scissor.161df94c190a082193ba.png",
     "static/media/product_5.webp": "/Ecommerce/static/media/product_5.917a3f8e25944ac0ab79.webp",
     "static/media/t-shirt.png": "/Ecommerce/static/media/t-shirt.3447e2d7848987e4bb4a.png",
+    "static/media/delete.webp": "/Ecommerce/static/media/delete.3b0b7283b84221cccbc7.webp",
     "index.html": "/Ecommerce/index.html",
     "static/media/facebook.webp": "/Ecommerce/static/media/facebook.98bcaa8d11ce4ee93097.webp",
-    "main.6111b58f.css.map": "/Ecommerce/static/css/main.6111b58f.css.map",
-    "main.ebed7795.js.map": "/Ecommerce/static/js/main.ebed7795.js.map"
+    "main.72483217.css.map": "/Ecommerce/static/css/main.72483217.css.map",
+    "main.2119c28a.js.map": "/Ecommerce/static/js/main.2119c28a.js.map"
   },
   "entrypoints": [
-    "static/css/main.6111b58f.css",
-    "static/js/main.ebed7795.js"
+    "static/css/main.72483217.css",
+    "static/js/main.2119c28a.js"
   ]
 }
