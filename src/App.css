@@ -367,6 +367,16 @@
   .LoginSignUp .hr-lines:after {
     width: 130px;
   }
+
+  .CartItems {
+    flex-direction: column;
+    margin: 1rem;
+  }
+
+  .CartItems .w-3\/5 {
+    width: 100%;
+    border-right: none;
+  }
 }
 
 @media only screen and (min-width: 577px) and (max-width: 768px) {}
