@@ -277,14 +277,14 @@
     flex-wrap: wrap;
   }
 
-  .NewsLetter,
-  .NewCollections {
+  .NewsLetter {
     flex-direction: column;
   }
 
   .NewCollections {
     margin-left: auto;
     margin-right: auto;
+    flex-direction: column-reverse;
   }
 
   .Navbar ul {
