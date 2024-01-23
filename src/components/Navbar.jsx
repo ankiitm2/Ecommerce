@@ -7,7 +7,7 @@ const Navbar = () => {
     const [menu, setMenu] = useState("home");
 
     return (
-        <div className="Navbar flex justify-around p-4 shadow bg-black">
+        <div className="Navbar flex justify-around p-4 shadow bg-black sm:flex-wrap">
             <Link to={"/"}>
                 <div className="logo flex items-center gap-3">
                     <img src={Logo} alt="logo" className="w-10" />

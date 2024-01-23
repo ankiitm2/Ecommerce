@@ -259,3 +259,37 @@
 .RelatedProducts .w-96 {
   width: 27rem;
 }
+
+@media only screen and (max-width: 576px) {
+  .Navbar {
+    flex-direction: column;
+  }
+
+  .Popular .Item {
+    width: fit-content;
+  }
+
+  .carousel-item .d-flex {
+    flex-direction: column;
+  }
+
+  .Navbar ul,
+  .Footer ul,
+  .NewsLetter,
+  .NewCollections {
+    flex-direction: column;
+  }
+
+  .NewCollections {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {}
+
+@media only screen and (min-width: 577px) and (max-width: 992px) {}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {}
+
+@media only screen and (min-width: 993px) and (max-width: 1024px) {}
