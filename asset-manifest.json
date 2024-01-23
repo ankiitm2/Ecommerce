@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Ecommerce/static/css/main.a40057f7.css",
-    "main.js": "/Ecommerce/static/js/main.b4c237a3.js",
+    "main.js": "/Ecommerce/static/js/main.1a3211cc.js",
     "static/media/hero-banner.png": "/Ecommerce/static/media/hero-banner.908a70d7a1dc5d31bc9f.png",
     "static/media/offer2.png": "/Ecommerce/static/media/offer2.18f41c91a20f50518f5f.png",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/Ecommerce/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
@@ -59,10 +59,10 @@
     "index.html": "/Ecommerce/index.html",
     "static/media/facebook.webp": "/Ecommerce/static/media/facebook.98bcaa8d11ce4ee93097.webp",
     "main.a40057f7.css.map": "/Ecommerce/static/css/main.a40057f7.css.map",
-    "main.b4c237a3.js.map": "/Ecommerce/static/js/main.b4c237a3.js.map"
+    "main.1a3211cc.js.map": "/Ecommerce/static/js/main.1a3211cc.js.map"
   },
   "entrypoints": [
     "static/css/main.a40057f7.css",
-    "static/js/main.b4c237a3.js"
+    "static/js/main.1a3211cc.js"
   ]
 }
