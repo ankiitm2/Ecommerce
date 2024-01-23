@@ -46,6 +46,22 @@ const CartItems = () => {
                         })}
                     </div>
                 </div>
+
+                <div className="table">
+                    <table className="w-full">
+                        <tbody>
+                            <tr class="cart-title2">
+                                <th className="border-0">PRODUCT</th>
+                                <th className="border-0">PRICE</th>
+                                <th className="border-0">QUANTITY</th>
+                            </tr>
+                            <tr class="cart-prodict-list">
+
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
                 {/* {allProduct.map((e) => {
                     if (cartItems[e.id] > 0) {
                         return <div key={e.id}>
