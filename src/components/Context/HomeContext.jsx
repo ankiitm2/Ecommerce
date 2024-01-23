@@ -21,7 +21,18 @@ const HomeContextProvider = (props) => {
         setCartItems((prev) => ({ ...prev, [itemId]: prev[itemId] - 1 }))
     }
 
-    const ContextValue = { allProduct, cartItems, addToCart, removeFromCart }
+    const getTotalCartAmount = () => {
+        let totalAmount = 0;
+        for (const item in cartItems) {
+            if (cartItems[item] > 0) {
+                let itemInfo = allProduct.find((product) => product.id === Number(item))
+                totalAmount += itemInfo.new_price * cartItems[item];
+            }
+            return totalAmount;
+        }
+    }
+
+    const ContextValue = { allProduct, cartItems, addToCart, removeFromCart, getTotalCartAmount }
 
     return (
         <HomeContext.Provider value={ContextValue}>
