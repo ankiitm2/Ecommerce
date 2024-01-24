@@ -401,6 +401,23 @@
     align-items: flex-start;
     margin-top: .5rem;
   }
+
+  .Hero .content p.text-2xl {
+    line-height: 1.4;
+  }
+
+  .Hero p.tag {
+    font-size: 2.5rem;
+    line-height: 1.1;
+  }
+
+  .HomeCategory .main-section {
+    margin: 1rem;
+  }
+
+  .HomeCategory .main-section .Item {
+    width: 100%;
+  }
 }
 
 @media only screen and (min-width: 577px) and (max-width: 768px) {}

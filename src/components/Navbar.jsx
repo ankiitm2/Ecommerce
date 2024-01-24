@@ -45,11 +45,13 @@ const Navbar = () => {
                     </li>
                 </ul>
             )}
-            <div className="btn flex items-center gap-4">
-                <button className="rounded-full p-2 border-2 border-white w-28 text-white cursor-pointer shadow font-bold active:text-black active:bg-white active:border-gray-800"><Link to={"/loginSignup"}>Login</Link></button>
-                <Link to={"/cart"}> <img src={Cart} alt="cart" className="invert w-4/5" /></Link>
-                <div className="cart-count relative w-5 h-5 flex justify-center items-center text-sm bg-red-600 text-white rounded-xl">{getTotalCartItmes()}</div>
-            </div>
+            {showMenu && (
+                <div className="btn flex items-center gap-4">
+                    <button className="rounded-full p-2 border-2 border-white w-28 text-white cursor-pointer shadow font-bold active:text-black active:bg-white active:border-gray-800"><Link to={"/loginSignup"}>Login</Link></button>
+                    <Link to={"/cart"}> <img src={Cart} alt="cart" className="invert w-4/5" /></Link>
+                    <div className="cart-count relative w-5 h-5 flex justify-center items-center text-sm bg-red-600 text-white rounded-xl">{getTotalCartItmes()}</div>
+                </div>
+            )}
         </div >
     )
 }
