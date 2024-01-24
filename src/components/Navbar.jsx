@@ -1,11 +1,14 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import Logo from "../Assets/logo.png";
 import Cart from "../Assets/cart_icon.png";
+import { HomeContext } from "./Context/HomeContext";
 
 const Navbar = () => {
     const [menu, setMenu] = useState("home");
     const [showMenu, setShowMenu] = useState(true);
+
+    const { getTotalCartItmes } = useContext(HomeContext);
 
     const toggleMenu = () => {
         setShowMenu(!showMenu);
@@ -45,7 +48,7 @@ const Navbar = () => {
             <div className="btn flex items-center gap-4">
                 <button className="rounded-full p-2 border-2 border-white w-28 text-white cursor-pointer shadow font-bold active:text-black active:bg-white active:border-gray-800"><Link to={"/loginSignup"}>Login</Link></button>
                 <Link to={"/cart"}> <img src={Cart} alt="cart" className="invert w-4/5" /></Link>
-                <div className="cart-count relative w-5 h-5 flex justify-center items-center text-sm bg-red-600 text-white rounded-xl">0</div>
+                <div className="cart-count relative w-5 h-5 flex justify-center items-center text-sm bg-red-600 text-white rounded-xl">{getTotalCartItmes()}</div>
             </div>
         </div >
     )

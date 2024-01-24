@@ -260,6 +260,10 @@
   width: 27rem;
 }
 
+.cart-items .details .name-detail {
+  width: 480px;
+}
+
 @media only screen and (max-width: 576px) {
   .Navbar {
     flex-direction: column;
@@ -375,16 +379,27 @@
 
   .CartItems .w-3\/5 {
     width: 100%;
-    border-right: none;
   }
 
-  .CartItems table th {
-    padding: 0.75rem;
-    vertical-align: top;
+  .shoppingDetails {
+    flex-direction: column;
   }
 
-  tr.cart-prodict-list:nth-child(odd) {
-    background: #f8f8f8;
+  .shoppingDetails .details {
+    flex-direction: column;
+  }
+
+  .shoppingDetails .w-2\/5 {
+    width: 100%;
+  }
+
+  .cart-items .details .name-detail {
+    width: 100%;
+  }
+
+  .shoppingDetails .price {
+    align-items: flex-start;
+    margin-top: .5rem;
   }
 }
 
