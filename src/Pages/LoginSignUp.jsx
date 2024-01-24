@@ -13,8 +13,8 @@ const LoginSignUp = () => {
                         <form className="sign-up">
                             <h4 className="text-3xl font-extrabold">Sign Up</h4>
                             <div className="mb-3">
-                                <label for="email" className="form-label">Your Name</label>
-                                <input type="email" className="form-control" id="name" placeholder="Enter your name" />
+                                <label for="name" className="form-label">Your Name</label>
+                                <input type="text" className="form-control" id="name" placeholder="Enter your name" />
                             </div>
                             <div className="mb-3">
                                 <label for="email" className="form-label">Email</label>
