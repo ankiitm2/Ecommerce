@@ -273,6 +273,18 @@
     width: 100%;
   }
 
+  .HomeCategory .upper-section p {
+    margin: auto !important;
+  }
+
+  .HomeCategory .upper-section select {
+    margin: auto !important;
+  }
+
+  .HomeCategory .banner {
+    display: none;
+  }
+
   .Popular .Item {
     width: fit-content;
   }
@@ -469,13 +481,5 @@
   .NewCollections {
     flex-direction: column-reverse;
     margin: auto;
-  }
-
-  .HomeCategory .upper-section p {
-    margin: auto !important;
-  }
-
-  .HomeCategory .upper-section select {
-    margin: auto !important;
   }
 }
