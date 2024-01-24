@@ -34,11 +34,15 @@ import p33_img from "./product_33.png";
 import p34_img from "./product_34.png";
 import p35_img from "./product_35.png";
 import p36_img from "./product_36.png";
+import n_p1 from "./new_product1.webp";
+import n_p2 from "./new_product2.webp";
+import n_p3 from "./new_product3.webp";
+
 
 let all_product = [
   {
     id: 1,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "Thick Black Furry Jacket",
     category: "women",
     image: p1_img,
     new_price: 50.0,
@@ -46,7 +50,7 @@ let all_product = [
   },
   {
     id: 2,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "Pink Short Sleeve Top Women",
     category: "women",
     image: p2_img,
     new_price: 85.0,
@@ -54,15 +58,15 @@ let all_product = [
   },
   {
     id: 3,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "Nike Sports Inner wear ",
     category: "women",
     image: p3_img,
-    new_price: 60.0,
-    old_price: 100.5,
+    new_price: 160.0,
+    old_price: 200.5,
   },
   {
     id: 4,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "Petal Sleeved Top ",
     category: "women",
     image: p4_img,
     new_price: 100.0,
@@ -86,11 +90,11 @@ let all_product = [
   },
   {
     id: 7,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "High Neck Sweater For Women",
     category: "women",
     image: p7_img,
-    new_price: 85.0,
-    old_price: 120.5,
+    new_price: 145.0,
+    old_price: 200.5,
   },
   {
     id: 8,
@@ -134,43 +138,43 @@ let all_product = [
   },
   {
     id: 13,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+    name: "Spread-Collar Cotton Shirt",
     category: "men",
-    image: p13_img,
-    new_price: 85.0,
-    old_price: 120.5,
+    image: n_p2,
+    new_price: 100.0,
+    old_price: 160.5,
   },
   {
     id: 14,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+    name: "Men Logo Print Slim Fit Shirt with Spread Collar",
     category: "men",
-    image: p14_img,
-    new_price: 85.0,
-    old_price: 120.5,
+    image: n_p3,
+    new_price: 115.0,
+    old_price: 130.5,
   },
   {
     id: 15,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+    name: "All-Over White Printed Black Jacket",
     category: "men",
     image: p15_img,
-    new_price: 85.0,
+    new_price: 65.0,
     old_price: 120.5,
   },
   {
     id: 16,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+    name: "Urban Street Multicolor Bomber Jacket",
     category: "men",
     image: p16_img,
-    new_price: 85.0,
-    old_price: 120.5,
+    new_price: 125.0,
+    old_price: 189.5,
   },
   {
     id: 17,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+    name: "Red Embellished Sherwani",
     category: "men",
-    image: p17_img,
-    new_price: 80.0,
-    old_price: 120.5,
+    image: n_p1,
+    new_price: 93.0,
+    old_price: 150.5,
   },
   {
     id: 18,
@@ -230,7 +234,7 @@ let all_product = [
   },
   {
     id: 25,
-    name: "Boys Orange Colourblocked Hooded Sweatshirt",
+    name: "Blue Hoodie with Lemon Printed on Back for Boys",
     category: "kid",
     image: p25_img,
     new_price: 85.0,
@@ -238,19 +242,19 @@ let all_product = [
   },
   {
     id: 26,
-    name: "Boys Orange Colourblocked Hooded Sweatshirt",
+    name: "Black Fit Hoodie For Boys",
     category: "kid",
     image: p26_img,
-    new_price: 85.0,
-    old_price: 120.5,
+    new_price: 95.0,
+    old_price: 140.5,
   },
   {
     id: 27,
-    name: "Boys Orange Colourblocked Hooded Sweatshirt",
+    name: "Three Colored Hoodie For Boys",
     category: "kid",
     image: p27_img,
-    new_price: 85.0,
-    old_price: 120.5,
+    new_price: 75.0,
+    old_price: 140.5,
   },
   {
     id: 28,
