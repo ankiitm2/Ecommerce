@@ -471,7 +471,11 @@
     margin: auto;
   }
 
-  /* .carousel-item .d-flex {
-      flex-direction: column;
-    } */
+  .HomeCategory .upper-section p {
+    margin: auto !important;
+  }
+
+  .HomeCategory .upper-section select {
+    margin: auto !important;
+  }
 }
